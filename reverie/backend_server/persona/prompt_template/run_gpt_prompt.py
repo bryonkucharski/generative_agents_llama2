@@ -188,6 +188,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     if p_f_ds_hourly_org: 
       prior_schedule = "\n"
       for count, i in enumerate(p_f_ds_hourly_org): 
+        print(i)
         prior_schedule += f"[(ID:{get_random_alphanumeric()})" 
         prior_schedule += f" {persona.scratch.get_str_curr_date_str()} --"
         prior_schedule += f" {hour_str[count]}] Activity:"
@@ -275,7 +276,12 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
                                      hour_str, 
                                      intermission2,
                                      test_input)
+
+  
   prompt = generate_prompt(prompt_input, prompt_template)
+
+  import pdb;pdb.set_trace()
+
   fail_safe = get_fail_safe()
   
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
@@ -372,10 +378,25 @@ def run_gpt_prompt_task_decomp(persona,
         _cr += [i]
     for count, i in enumerate(_cr): 
       k = [j.strip() for j in i.split("(duration in minutes:")]
+      # Ensure there are enough elements in k
+      if len(k) < 2:
+          print(f"Warning: Unexpected string structure in '{i}'. Missing '(duration in minutes:' delimiter.")
+          continue
+    
       task = k[0]
-      if task[-1] == ".": 
+      # Error thrown when task string is empty 
+      if task and task[-1] == ".": 
         task = task[:-1]
-      duration = int(k[1].split(",")[0].strip())
+      
+      # Ensure there are enough elements in k
+      try:
+          duration = int(k[1].split(",")[0].strip())
+      except ValueError:
+          # Handle the case when the conversion to int fails
+          print(f"Error: Failed to convert '{k[1].split(',')[0].strip()}' to integer.")
+          duration = 0
+          continue
+  
       cr += [[task, duration]]
 
     total_expected_min = int(prompt.split("(total duration in minutes")[-1]
@@ -436,6 +457,9 @@ def run_gpt_prompt_task_decomp(persona,
 
   print ("?????")
   print (prompt)
+
+  import pdb;pdb.set_trace()
+
   output = safe_generate_response(prompt, gpt_param, 5, get_fail_safe(),
                                    __func_validate, __func_clean_up)
 
@@ -610,6 +634,9 @@ def run_gpt_prompt_action_sector(action_description,
   prompt = generate_prompt(prompt_input, prompt_template)
 
   fail_safe = get_fail_safe()
+
+  import pdb;pdb.set_trace()
+
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
   y = f"{maze.access_tile(persona.scratch.curr_tile)['world']}"
@@ -705,7 +732,7 @@ def run_gpt_prompt_action_arena(action_description,
   prompt_template = "persona/prompt_template/v1/action_location_object_vMar11.txt"
   prompt_input = create_prompt_input(action_description, persona, maze, act_world, act_sector)
   prompt = generate_prompt(prompt_input, prompt_template)
-
+  import pdb;pdb.set_trace()
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
@@ -1759,13 +1786,6 @@ def run_gpt_prompt_keyword_to_thoughts(persona, keyword, concept_summary, test_i
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
 
-
-
-
-
-
-
-
 def run_gpt_prompt_convo_to_thoughts(persona, 
                                     init_persona_name,  
                                     target_persona_name,
@@ -1817,32 +1837,7 @@ def run_gpt_prompt_convo_to_thoughts(persona,
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, verbose=False): 
+def X_run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, verbose=False): 
   def create_prompt_input(persona, event_description, test_input=None): 
     prompt_input = [persona.scratch.name,
                     persona.scratch.get_str_iss(),
@@ -2177,6 +2172,8 @@ def run_gpt_prompt_insight_and_guidance(persona, statements, n, test_input=None,
   prompt = generate_prompt(prompt_input, prompt_template)
 
   fail_safe = get_fail_safe(n)
+  import pdb;pdb.set_trace()
+
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
 
@@ -2900,6 +2897,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
   print ("22")
   prompt = generate_prompt(prompt_input, prompt_template)
   print (prompt)
+  import pdb;pdb.set_trace()
   fail_safe = get_fail_safe() 
   output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
                         __chat_func_validate, __chat_func_clean_up, verbose)
