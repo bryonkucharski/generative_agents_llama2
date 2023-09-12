@@ -1,0 +1,3 @@
+Conversation History:
+{persona_1} and {persona_2} are chatting. Here is their conversation so far: 
+{conversation_history}

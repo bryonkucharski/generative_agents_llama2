@@ -1,0 +1,7 @@
+Given the following statements, you must generate {number_to_generate} salient high-level questions we can answer about the subjects grounded in the statements.
+
+use the following format:
+
+1) ```QUESTION1```
+2) ```QUESTION2```
+3) ```QUESTION3```

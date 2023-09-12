@@ -1,0 +1,1 @@
+On ```{current_date}``` at ```{current_hour}```, {persona_name} ["

@@ -1,0 +1,2 @@
+Current activity: ```{current_activity}```
+Objects available: {available_objects}

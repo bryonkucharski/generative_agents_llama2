@@ -35,6 +35,16 @@ from utils import *
 from maze import *
 from persona.persona import *
 
+import logging
+import sys
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter(
+    "[%(levelname)s|%(filename)s:%(lineno)s] %(asctime)s >> %(message)s")
+sh = logging.StreamHandler(sys.stdout)
+sh.setFormatter(formatter)
+logging.basicConfig(handlers=[sh], )
+logger.setLevel(logging.INFO)
+
 ##############################################################################
 #                                  REVERIE                                   #
 ##############################################################################
@@ -307,7 +317,7 @@ class ReverieServer:
       # Done with this iteration if <int_counter> reaches 0. 
       if int_counter == 0: 
         break
-
+      logger.info('Step Counter: ' + str(int_counter ))
       # <curr_env_file> file is the file that our frontend outputs. When the
       # frontend has done its job and moved the personas, then it will put a 
       # new environment file that matches our step count. That's when we run 
@@ -335,6 +345,7 @@ class ReverieServer:
 
           # We first move our personas in the backend environment to match 
           # the frontend environment. 
+          logger.info('Beginning Persona Loop')
           for persona_name, persona in self.personas.items(): 
             # <curr_tile> is the tile that the persona was at previously. 
             curr_tile = self.personas_tile[persona_name]
@@ -397,6 +408,9 @@ class ReverieServer:
           # {"persona": {"Maria Lopez": {"movement": [58, 9]}},
           #  "persona": {"Klaus Mueller": {"movement": [38, 12]}}, 
           #  "meta": {curr_time: <datetime>}}
+          movementFolder = f"{sim_folder}/movement"
+          if not os.path.exists(movementFolder):
+            os.mkdir(movementFolder)
           curr_move_file = f"{sim_folder}/movement/{self.step}.json"
           with open(curr_move_file, "w") as outfile: 
             outfile.write(json.dumps(movements, indent=2))
@@ -605,8 +619,10 @@ if __name__ == '__main__':
   #                    "July1_the_ville_isabella_maria_klaus-step-3-21")
   # rs.open_server()
 
-  origin = input("Enter the name of the forked simulation: ").strip()
-  target = input("Enter the name of the new simulation: ").strip()
+  # raw plans right before the convo
+  
+  origin = "base_the_ville_n252023-09-09_15-51-34" #"base_the_ville_isabella_maria_klaus" #input("Enter the name of the forked simulation: ").strip() #"base_the_ville_isabella_maria_klaus"
+  target = "base_the_ville_n25" + str(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')) #input("Enter the name of the new simulation: ").strip() #"bryon_text" + str(datetime.datetime.now())
 
   rs = ReverieServer(origin, target)
   rs.open_server()

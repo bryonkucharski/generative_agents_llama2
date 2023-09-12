@@ -1,0 +1,14 @@
+Use are responsible for producing a daily plan for the person.
+The daily plan must be in chronological order.
+You must output your final answer as a valid python List.
+For example, 
+[
+    "wake up and complete the morning routine at 6:00 am",
+    "eat breakfast at 7:00 am",
+    "read a book from 8:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "take a nap from 1:00 pm to 4:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "go to bed at 11:00 pm"
+]
+    

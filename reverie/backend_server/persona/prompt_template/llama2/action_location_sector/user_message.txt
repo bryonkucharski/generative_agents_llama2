@@ -1,0 +1,5 @@
+{persona_name} lives in ```{persona_living_area}``` that has ```{living_accessible_sector_arenas}```.
+{persona_name} is currently in ```{current_location}``` that has ```{current_location_accessible_sector_arenas}```. 
+Area options: {area_options}. 
+* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
+* Must be one of the "Area options," verbatim.

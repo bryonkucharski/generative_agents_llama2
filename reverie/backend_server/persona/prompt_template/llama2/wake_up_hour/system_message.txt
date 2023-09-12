@@ -1,0 +1,7 @@
+Use are responsible for outputting the hour of the day for that the person wakes up.
+Use the ```Lifestyle:``` input to direct your answer.
+You can be creative and wakeup various hours in the morning
+Follow the examples for your output
+    9am
+    6am
+    2am

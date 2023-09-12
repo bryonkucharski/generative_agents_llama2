@@ -145,7 +145,7 @@ class AssociativeMemory:
     r["kw_strength_thought"] = self.kw_strength_thought
     with open(out_json+"/kw_strength.json", "w") as outfile:
       json.dump(r, outfile)
-
+    
     with open(out_json+"/embeddings.json", "w") as outfile:
       json.dump(self.embeddings, outfile)
 

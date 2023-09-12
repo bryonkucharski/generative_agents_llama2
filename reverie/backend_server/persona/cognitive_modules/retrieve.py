@@ -8,10 +8,21 @@ import sys
 sys.path.append('../../')
 
 from global_methods import *
-from persona.prompt_template.gpt_structure import *
+from persona.prompt_template.llama2_structure import get_embedding
 
 from numpy import dot
 from numpy.linalg import norm
+
+import logging 
+import sys
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter(
+    "[%(levelname)s|%(filename)s:%(lineno)s] %(asctime)s >> %(message)s")
+sh = logging.StreamHandler(sys.stdout)
+sh.setFormatter(formatter)
+logging.basicConfig(handlers=[sh], )
+logger.setLevel(logging.INFO)
+
 
 def retrieve(persona, perceived): 
   """
@@ -249,11 +260,13 @@ def new_retrieve(persona, focal_points, n_count=30):
                      + persona.scratch.importance_w*importance_out[key]*gw[2])
 
     master_out = top_highest_x_values(master_out, len(master_out.keys()))
-    for key, val in master_out.items(): 
-      print (persona.a_mem.id_to_node[key].embedding_key, val)
-      print (persona.scratch.recency_w*recency_out[key]*1, 
-             persona.scratch.relevance_w*relevance_out[key]*1, 
-             persona.scratch.importance_w*importance_out[key]*1)
+    # for key, val in master_out.items(): 
+    #   logger.info(str(persona.a_mem.id_to_node[key].embedding_key) +  str(val))
+    #   logger.info(
+    #     str(persona.scratch.recency_w*recency_out[key]*1)  + " " + \
+    #     str(persona.scratch.relevance_w*relevance_out[key]*1) + " " + \
+    #     str(persona.scratch.importance_w*importance_out[key]*1)
+    #   )
 
     # Extracting the highest x values.
     # <master_out> has the key of node.id and value of float. Once we get the 

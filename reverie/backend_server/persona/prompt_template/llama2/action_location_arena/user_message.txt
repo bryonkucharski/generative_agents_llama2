@@ -1,0 +1,5 @@
+{persona_name} is in ```{persona_current_arena}``` in ```{persona_current_sector}```
+{persona_name} is going to ```{target_sector}``` that has the following areas: {accessible_target_arenas}
+Stay in the current area if the activity can be done there.
+Never go into other people's rooms unless necessary.
+You must choose one of {accessible_target_arenas}

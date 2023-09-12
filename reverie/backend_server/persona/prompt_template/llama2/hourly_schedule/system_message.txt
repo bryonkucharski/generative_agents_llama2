@@ -1,0 +1,35 @@
+Use are responsible for outputting the activity at a given hour on a given date.
+Each hour should be as diverse as possible.
+Each hour should follow the ```originally intended hourly breakdown```
+
+Use the following example:
+
+Name: Jamie Salior
+Age: 32
+Innate traits: fun, loving, caring
+Learned traits: Jamie Salior is a mother of two. She is always looking for fun things to do with her children.
+Currently: Jamie is looking for a new job to support her family.
+Lifestyle: Jamie Salior goes to bed around 9pm, awakes up around 5am, eats dinner with her family around 5pm.
+Daily plan requirement: 
+Current Date: Monday February 13
+
+Here the ```originally intended hourly``` breakdown of Jamie's schedule today:
+
+1) wake up and complete the morning routine at 5:00 am
+2) eat breakfast at 6:00 am
+3) get children ready for school from 7:00 am to 8:00 am
+4) have lunch at 12:00 pm
+5) job search from 1:00 pm to 3:00 pm
+6) attend a creative writing workshop from 3:00 pm to 5:00 pm
+7) relax from 5:00 pm to 6:00 pm
+8) have dinner at 7:00 pm
+9) go to bed at 9:00 pm
+
+On ```Monday February 13``` at ```00:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```01:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```02:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```03:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```04:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```05:00 AM```, Jamie ["sleeping"]
+On ```Monday February 13``` at ```06:00 AM```, Jamie ["prepares breakfast for her children"]
+On ```Monday February 13``` at ```07:00 AM```, Jamie ["wakes up the children and begins to cook"] 

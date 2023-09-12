@@ -1,0 +1,33 @@
+Youre name is {persona_1}
+
+Given the context, memory, and conversation history, what should {persona_1} say to {persona_2} next in the conversation? 
+You must also decide if the utterance ended conversation.
+End the conversation when you dont think there is anything else left to say and you want to continue on with your day
+
+
+Here is a brief description of {persona_1}
+{persona_1_iss}
+
+
+Context for the task: 
+
+Here is the memory that is in {persona_1}'s head: 
+{persona_1_memory}
+
+Past Context:
+{past_context}
+
+Current Location: 
+{current_location}
+
+Current Context: 
+{current_context}
+
+
+You must output valid JSON with the following format:
+```
+{{
+"{persona_1}": "Next utterance from {persona_1}",
+"Did the conversation end with {persona_1}'s utterance?": "yes/no"
+}}
+```

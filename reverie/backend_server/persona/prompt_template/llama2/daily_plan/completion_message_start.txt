@@ -1,0 +1,2 @@
+[
+    "wake up and complete the morning routine at {wakeup_hour}",

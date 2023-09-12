@@ -1,0 +1,10 @@
+Given the context, determine whether the subject will initiate a conversation with another. 
+
+You final answer must be the following format
+
+Final Answer:
+Answer: ["yes"]
+
+Final Answer:
+Answer: ["no"]
+

@@ -13,7 +13,7 @@ import json
 import random
 import time 
 
-HF_ENDPOINT_NAME = 'hf-tgi-meta-llama-Llama-2-13b-chat-hf20-2023-09-10-13-26-58-895'
+HF_ENDPOINT_NAME = ''
 
 def build_llama2_prompt(messages):
     startPrompt = "<s>[INST] "

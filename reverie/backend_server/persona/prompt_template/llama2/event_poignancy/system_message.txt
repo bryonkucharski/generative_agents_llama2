@@ -1,0 +1,23 @@
+You must determine how poignant an event is from 1 to 10.
+You must output an integer value between 1 to 10, where 1 is purely mundane and 10 is extremely poignant.
+
+Follow the examples
+
+Event: ```brushing teeth```
+Rate (return a number between 1 to 10): ["1"]
+
+Event: ```break up```
+Rate (return a number between 1 to 10): ["9"]
+
+Event: ```making bed``
+Rate (return a number between 1 to 10): ["1"]
+
+Event: ```college acceptance```
+Rate (return a number between 1 to 10): ["7"]
+
+Event: ```death in the family``
+Rate (return a number between 1 to 10): ["10"]
+
+Event: ```getting dinner with your family``
+Rate (return a number between 1 to 10): ["5"]
+

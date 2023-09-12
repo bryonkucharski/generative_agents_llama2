@@ -1,0 +1,2 @@
+Convert an action description to an emoji (important: use two or less emojis).
+The value for the output must ONLY contain the emojis.

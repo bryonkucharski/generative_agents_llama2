@@ -17,6 +17,8 @@ from persona.memory_structures.associative_memory import *
 from persona.memory_structures.scratch import *
 from persona.cognitive_modules.retrieve import *
 from persona.prompt_template.run_gpt_prompt import *
+from persona.prompt_template.run_llama2_prompt import *
+from persona.prompt_template.llama2_structure import get_embedding
 
 def generate_agent_chat_summarize_ideas(init_persona, 
                                         target_persona, 
@@ -50,9 +52,8 @@ def generate_summarize_agent_relationship(init_persona,
   for i in all_embedding_keys: 
     all_embedding_key_str += f"{i}\n"
 
-  summarized_relationship = run_gpt_prompt_agent_chat_summarize_relationship(
-                              init_persona, target_persona,
-                              all_embedding_key_str)[0]
+  summarized_relationship = run_llama2_prompt_agent_chat_summarize_relationship(init_persona, target_persona, all_embedding_key_str)[0]
+
   return summarized_relationship
 
 
@@ -115,7 +116,8 @@ def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_c
               f"{target_persona.scratch.name}.")
 
   print ("July 23 5")
-  x = run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retrieved, curr_context, curr_chat)[0]
+  #x = run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retrieved, curr_context, curr_chat)[0]
+  x = run_llama2_generate_iterative_chat_utt(maze, init_persona, target_persona, retrieved, curr_context, curr_chat)[0]
 
   print ("July 23 6")
 

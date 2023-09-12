@@ -1,0 +1,1 @@
+{persona_name} is {persona_action1}. For {persona_action2}, {persona_name} should go to the following area: ["

@@ -1,0 +1,7 @@
+Based on the statements, summarize {persona_1} and {persona_2}'s relationship. 
+
+You must answer the question: 
+What do they feel or know about each other?
+
+Use the following example output:
+Summary of Jane Doe and Bob Miller's relationship: ["Jane Doe is working on a project"]

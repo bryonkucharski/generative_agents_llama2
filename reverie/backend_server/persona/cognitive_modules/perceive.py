@@ -9,18 +9,17 @@ sys.path.append('../../')
 
 from operator import itemgetter
 from global_methods import *
-from persona.prompt_template.gpt_structure import *
-from persona.prompt_template.run_gpt_prompt import *
+from persona.prompt_template.llama2_structure import get_embedding
+from persona.prompt_template.run_llama2_prompt import *
 
 def generate_poig_score(persona, event_type, description): 
   if "is idle" in description: 
     return 1
 
   if event_type == "event": 
-    return run_gpt_prompt_event_poignancy(persona, description)[0]
+    return run_llama2_prompt_poignancy(event_type,persona, description)[0]
   elif event_type == "chat": 
-    return run_gpt_prompt_chat_poignancy(persona, 
-                           persona.scratch.act_description)[0]
+    return run_llama2_prompt_poignancy(event_type,persona, persona.scratch.act_description)[0]
 
 def perceive(persona, maze): 
   """

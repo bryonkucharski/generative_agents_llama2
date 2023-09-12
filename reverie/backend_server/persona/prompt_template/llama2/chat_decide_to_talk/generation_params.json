@@ -1,0 +1,6 @@
+{
+    "do_sample": false,
+    "temperature": 0.01,
+    "max_new_tokens": 512,
+    "stop": ["\"]"]
+}

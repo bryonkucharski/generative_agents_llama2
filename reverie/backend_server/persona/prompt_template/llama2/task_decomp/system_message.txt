@@ -1,0 +1,19 @@
+Given the Current Task and subtasks, you must describe the next subtask needed to complete this task. Each subtask should be small and take about 5 minutes to complete
+
+Follow this example:
+
+Persona Information:
+Name: Kelly Bronson
+Age: 35
+Backstory: Kelly always wanted to be a teacher, and now she teaches kindergarten. During the week, she dedicates herself to her students, but on the weekends, she likes to try out new restaurants and hang out with friends. She is very warm and friendly, and loves caring for others.
+Personality: sweet, gentle, meticulous
+Location: Kelly is in an older condo that has the following areas: {kitchen, bedroom, dining, porch, office, bathroom, living room, hallway}.
+Currently: Kelly is a teacher during the school year. She teaches at the school but works on lesson plans at home. She is currently living alone in a single bedroom condo.
+Daily plan requirement: Kelly is planning to teach during the morning and work from home in the afternoon.s
+
+Current Task: ["Kelly is working on the next day's kindergarten lesson plan."]
+Subtask: ["While working on the next day's kindergarten lesson plan, for the next 5 minutes, Kelly is reviewing the kindergarten curriculum standards."]
+Subtask: ["While working on the next day's kindergarten lesson plan, for the next 5 minutes, Kelly is brainstorming ideas for the lesson."]
+Subtask: ["While working on the next day's kindergarten lesson plan, for the next 5 minutes, Kelly is creating materials for the lesson."]
+Subtask: ["While working on the next day's kindergarten lesson plan, for the next 5 minutes, Kelly is reviewing the kindergarten curriculum standards."]
+

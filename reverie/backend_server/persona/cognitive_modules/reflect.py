@@ -15,15 +15,26 @@ from numpy.linalg import norm
 
 from global_methods import *
 from persona.prompt_template.run_gpt_prompt import *
+from persona.prompt_template.run_llama2_prompt import *
 from persona.prompt_template.gpt_structure import *
 from persona.cognitive_modules.retrieve import *
+from persona.prompt_template.llama2_structure import get_embedding
+
+import logging 
+import sys
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter(
+    "[%(levelname)s|%(filename)s:%(lineno)s] %(asctime)s >> %(message)s")
+sh = logging.StreamHandler(sys.stdout)
+sh.setFormatter(formatter)
+logging.basicConfig(handlers=[sh], )
+logger.setLevel(logging.INFO)
+
 
 def generate_focal_points(persona, n=3): 
   if debug: print ("GNS FUNCTION: <generate_focal_points>")
   
-  nodes = [[i.last_accessed, i]
-            for i in persona.a_mem.seq_event + persona.a_mem.seq_thought
-            if "idle" not in i.embedding_key]
+  nodes = [[i.last_accessed, i] for i in persona.a_mem.seq_event + persona.a_mem.seq_thought if "idle" not in i.embedding_key]
 
   nodes = sorted(nodes, key=lambda x: x[0])
   nodes = [i for created, i in nodes]
@@ -32,7 +43,8 @@ def generate_focal_points(persona, n=3):
   for node in nodes[-1*persona.scratch.importance_ele_n:]: 
     statements += node.embedding_key + "\n"
 
-  return run_gpt_prompt_focal_pt(persona, statements, n)[0]
+  #return run_gpt_prompt_focal_pt(persona, statements, n)[0]
+  return run_llama2_prompt_focal_pt(persona, statements, n)[0]
 
 
 def generate_insights_and_evidence(persona, nodes, n=5): 
@@ -42,9 +54,8 @@ def generate_insights_and_evidence(persona, nodes, n=5):
   for count, node in enumerate(nodes): 
     statements += f'{str(count)}. {node.embedding_key}\n'
 
-  ret = run_gpt_prompt_insight_and_guidance(persona, statements, n)[0]
-
-  print (ret)
+  #ret = run_gpt_prompt_insight_and_guidance(persona, statements, n)[0]
+  ret = run_llama2_prompt_insight_and_guidance(persona, statements, n)[0]
   try: 
 
     for thought, evi_raw in ret.items(): 
@@ -66,31 +77,31 @@ def generate_action_event_triple(act_desp, persona):
   EXAMPLE OUTPUT: 
     "🧈🍞"
   """
-  if debug: print ("GNS FUNCTION: <generate_action_event_triple>")
-  return run_gpt_prompt_event_triple(act_desp, persona)[0]
+  if debug: logger.info("GNS FUNCTION: <generate_action_event_triple>")
+  #return run_gpt_prompt_event_triple(act_desp, persona)[0]
+  return run_llama2_prompt_event_triple(act_desp, persona)[0]
 
 
 def generate_poig_score(persona, event_type, description): 
-  if debug: print ("GNS FUNCTION: <generate_poig_score>")
+  if debug: logger.info("GNS FUNCTION: <generate_poig_score>")
 
   if "is idle" in description: 
     return 1
 
   if event_type == "event" or event_type == "thought": 
-    return run_gpt_prompt_event_poignancy(persona, description)[0]
+    return run_llama2_prompt_poignancy(event_type,persona, description)[0]
   elif event_type == "chat": 
-    return run_gpt_prompt_chat_poignancy(persona, 
-                           persona.scratch.act_description)[0]
+    return run_llama2_prompt_poignancy(event_type,persona, persona.scratch.act_description)[0]
 
 
 
 def generate_planning_thought_on_convo(persona, all_utt):
-  if debug: print ("GNS FUNCTION: <generate_planning_thought_on_convo>")
+  if debug: logger.info("GNS FUNCTION: <generate_planning_thought_on_convo>")
   return run_gpt_prompt_planning_thought_on_convo(persona, all_utt)[0]
 
 
 def generate_memo_on_convo(persona, all_utt):
-  if debug: print ("GNS FUNCTION: <generate_memo_on_convo>")
+  if debug: logger.info("GNS FUNCTION: <generate_memo_on_convo>")
   return run_gpt_prompt_memo_on_convo(persona, all_utt)[0]
 
 
@@ -116,10 +127,11 @@ def run_reflect(persona):
   # agent's memory. 
   for focal_pt, nodes in retrieved.items(): 
     xx = [i.embedding_key for i in nodes]
-    for xxx in xx: print (xxx)
+    for xxx in xx: logger.info(xxx)
 
     thoughts = generate_insights_and_evidence(persona, nodes, 5)
     for thought, evidence in thoughts.items(): 
+      thought = thought.split(")")[-1].strip()
       created = persona.scratch.curr_time
       expiration = persona.scratch.curr_time + datetime.timedelta(days=30)
       s, p, o = generate_action_event_triple(thought, persona)
@@ -146,9 +158,8 @@ def reflection_trigger(persona):
     True if we are running a new reflection. 
     False otherwise. 
   """
-  print (persona.scratch.name, "persona.scratch.importance_trigger_curr::", persona.scratch.importance_trigger_curr)
-  print (persona.scratch.importance_trigger_max)
-
+  logger.info(persona.scratch.name + " persona.scratch.importance_trigger_curr:: " + str(persona.scratch.importance_trigger_curr))
+  
   if (persona.scratch.importance_trigger_curr <= 0 and 
       [] != persona.a_mem.seq_event + persona.a_mem.seq_thought): 
     return True 

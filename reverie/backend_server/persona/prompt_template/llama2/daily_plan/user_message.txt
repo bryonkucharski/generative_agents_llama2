@@ -1,0 +1,5 @@
+{persona_iss}
+
+In general, {lifestyle}
+Today is {current_date}.
+Here is {persona_name}'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm):

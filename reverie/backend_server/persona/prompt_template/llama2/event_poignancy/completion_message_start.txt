@@ -1,0 +1,1 @@
+Rate (return a number between 1 to 10): ["

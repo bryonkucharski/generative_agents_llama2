@@ -1,0 +1,8 @@
+Context: {context}
+
+Right now, it is {curr_time}. {persona_1} and {persona_2} last chatted at {last_chat_time} about {last_chat_info}.
+
+Currently, {persona_1_action}
+Currently, {persona_2_action}
+
+Question: Would {persona_1} initiate a conversation with {persona_2}? 

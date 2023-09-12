@@ -1,0 +1,5 @@
+Persona Information:
+{persona_iss}
+
+Current Task: {current_task}
+{subtask_list}

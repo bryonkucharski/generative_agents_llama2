@@ -1,0 +1,19 @@
+Given the following statements, you must generate {number_to_generate} high-level insights that you can infer from the statements.
+
+Use the following format:
+
+1) ```insight``` (because of 1, 5, 3)
+2) ```insight``` (because of 1, 2, 3)`
+3) ```insight``` (because of 1, 5, 4)
+4) ```insight``` (because of 3, 5, 2)
+5) ```insight``` (because of 1, 5, 3)
+
+For example, 
+
+Statements: 
+1. Klaus Mueller is writing a research paper
+2. Klaus Mueller enjoys reading a book on gentrification
+3. Klaus Mueller is conversing with Ayesha Khan about exercising
+
+1) Klaus Mueller is dedicated to his research on gentrification (because of 1, 2)
+2) Ayesha Khan cares about their health (because of 3)
