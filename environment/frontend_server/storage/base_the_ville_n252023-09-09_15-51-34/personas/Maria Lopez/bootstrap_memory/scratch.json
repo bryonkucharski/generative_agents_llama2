@@ -1,0 +1,206 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    123,
+    57
+  ],
+  "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
+  "name": "Maria Lopez",
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "age": 21,
+  "innate": "energetic, enthusiastic, inquisitive",
+  "learned": "Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.",
+  "currently": "Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.",
+  "lifestyle": "Maria Lopez goes to bed around midnight, awakes up around 10am, eats dinner around 7pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 240,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 10:00 am",
+    "eat breakfast at 11:00 am",
+    "stream on Twitch from 12:00 pm to 6:00 pm",
+    "have lunch at 7:00 pm",
+    "relax from 8:00 pm to 9:00 pm",
+    "stream on Twitch from 9:00 pm to 12:00 am",
+    "go to bed at 1:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "Maria Lopez is checking her Twitch channel for any new messages or comments from her viewers.\"",
+      5
+    ],
+    [
+      "Maria Lopez is reviewing her schedule for the day, including her streaming schedule and any upcoming deadlines for her physics coursework.\"",
+      5
+    ],
+    [
+      "Maria Lopez is deciding what to wear for her streaming session today, considering the theme of the day and the outfit that will best engage her audience.\"",
+      5
+    ],
+    [
+      "Maria Lopez is making breakfast and planning her meals for the day, considering her busy schedule and the need to keep her energy levels up throughout the day.\"",
+      5
+    ],
+    [
+      "Maria Lopez is checking her email for any important messages or updates from her university or Twitch channel.\"",
+      5
+    ],
+    [
+      "Maria Lopez is reviewing her physics coursework for the day, making sure she understands the concepts and is prepared for any upcoming exams or assignments.\"",
+      5
+    ],
+    [
+      "Maria Lopez is deciding on the theme for her Twitch stream for the day, considering what games she wants to play and what topics she wants to discuss with her audience.\"",
+      5
+    ],
+    [
+      "Maria Lopez is creating a to-do list for the day, including her streaming schedule, coursework, and any other tasks she needs to complete.\"",
+      5
+    ],
+    [
+      "Maria Lopez is checking her Twitch channel for any new messages or comments from her viewers and responding to them.\"",
+      5
+    ],
+    [
+      "Maria Lopez is deciding on the outfit she will wear for her Twitch stream that day, considering the theme of the day and the outfit that will best engage her audience.\"",
+      5
+    ],
+    [
+      "Maria Lopez is reviewing her schedule for the day and making any necessary adjustments to ensure she has enough time for all of her tasks and activities.\"",
+      5
+    ],
+    [
+      "Maria Lopez is planning her meals for the day, considering her busy schedule and the need to keep her energy levels up throughout the day.\"",
+      5
+    ],
+    [
+      "starts her morning routine",
+      60
+    ],
+    [
+      "starts her Twitch stream",
+      60
+    ],
+    [
+      "is in the middle of her Twitch stream",
+      180
+    ],
+    [
+      "takes a short break from her Twitch stream to eat lunch",
+      60
+    ],
+    [
+      "is back to her Twitch stream",
+      60
+    ],
+    [
+      "is in the middle of her Twitch stream",
+      180
+    ],
+    [
+      "starts to wind down her Twitch stream",
+      60
+    ],
+    [
+      "finishes her Twitch stream and starts to relax",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "wakes up and begins to get ready for her day",
+      60
+    ],
+    [
+      "starts her morning routine",
+      60
+    ],
+    [
+      "starts her Twitch stream",
+      60
+    ],
+    [
+      "is in the middle of her Twitch stream",
+      180
+    ],
+    [
+      "takes a short break from her Twitch stream to eat lunch",
+      60
+    ],
+    [
+      "is back to her Twitch stream",
+      60
+    ],
+    [
+      "is in the middle of her Twitch stream",
+      180
+    ],
+    [
+      "starts to wind down her Twitch stream",
+      60
+    ],
+    [
+      "finishes her Twitch stream and starts to relax",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 600,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Maria Lopez",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

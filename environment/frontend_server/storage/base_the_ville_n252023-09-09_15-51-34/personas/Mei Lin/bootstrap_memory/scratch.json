@@ -1,0 +1,263 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    90,
+    74
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 237,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "eat breakfast at 8:00 am",
+    "teach at Oak Hill college from 10:00 am to 2:00 pm",
+    "have lunch at 12:00 pm",
+    "work on research paper from 3:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "go to bed at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Mei Lin is meditating to center herself for the day.\"",
+      5
+    ],
+    [
+      "Mei Lin is making breakfast for her family.\"",
+      5
+    ],
+    [
+      "Mei Lin is getting her son, Eddy, ready for school.\"",
+      5
+    ],
+    [
+      "Mei Lin is helping her son Eddy with his homework.\"",
+      5
+    ],
+    [
+      "Mei Lin is reviewing her lesson plan for the day's philosophy class.\"",
+      5
+    ],
+    [
+      "Mei Lin is checking her email and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Mei Lin is planning her schedule for the day, including her teaching preparation, family time, and any other tasks she needs to accomplish.\"",
+      5
+    ],
+    [
+      "Mei Lin is making a to-do list for the day, including her teaching preparation, family time, and any other tasks she needs to accomplish.\"",
+      5
+    ],
+    [
+      "Mei Lin is planning her outfit for the day, choosing an outfit that is comfortable and appropriate for teaching.\"",
+      5
+    ],
+    [
+      "Mei Lin is reviewing her schedule for the day and making any necessary adjustments to ensure she has enough time for everything she needs to accomplish.\"",
+      5
+    ],
+    [
+      "Mei Lin is making a cup of green tea to start her day.\"",
+      5
+    ],
+    [
+      "Mei Lin is planning her lesson plan for the day's philosophy class, making sure to include engaging activities and materials for her students.\"",
+      5
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "prepares for work",
+      60
+    ],
+    [
+      "teaches her first class at Oak Hill college",
+      60
+    ],
+    [
+      "teaches her second class at Oak Hill college",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "works on her research paper",
+      60
+    ],
+    [
+      "takes a short break to relax and recharge",
+      60
+    ],
+    [
+      "continues working on her research paper",
+      60
+    ],
+    [
+      "finishes work on her research paper and heads home",
+      60
+    ],
+    [
+      "arrives home and has dinner with her family",
+      60
+    ],
+    [
+      "spends time with her family and relaxes",
+      60
+    ],
+    [
+      "begins to prepare for her next day's classes",
+      60
+    ],
+    [
+      "has a family dinner",
+      60
+    ],
+    [
+      "begins to wind down and relax before bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "wakes up and begins her morning routine",
+      60
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "prepares for work",
+      60
+    ],
+    [
+      "teaches her first class at Oak Hill college",
+      60
+    ],
+    [
+      "teaches her second class at Oak Hill college",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "works on her research paper",
+      60
+    ],
+    [
+      "takes a short break to relax and recharge",
+      60
+    ],
+    [
+      "continues working on her research paper",
+      60
+    ],
+    [
+      "finishes work on her research paper and heads home",
+      60
+    ],
+    [
+      "arrives home and has dinner with her family",
+      60
+    ],
+    [
+      "spends time with her family and relaxes",
+      60
+    ],
+    [
+      "begins to prepare for her next day's classes",
+      60
+    ],
+    [
+      "has a family dinner",
+      60
+    ],
+    [
+      "begins to wind down and relax before bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 420,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Mei Lin",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

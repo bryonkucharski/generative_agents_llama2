@@ -1,0 +1,239 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    58,
+    74
+  ],
+  "daily_plan_req": "Carmen opens Harvey Oak Supply Store at 8am, stands behind its counter, and closes it at 6pm, at which point, she likes to go to The Rose and Crown Pub to relax",
+  "name": "Carmen Ortiz",
+  "first_name": "Carmen",
+  "last_name": "Ortiz",
+  "age": 33,
+  "innate": "friendly, outgoing, helpful",
+  "learned": "Carmen Ortiz is a shopkeeper at Harvey Oak Supply Store who loves to help people find the supplies they need. She is always looking for ways to make her customers feel welcome.",
+  "currently": "Carmen Ortiz is managing Harvey Oak Supply Store and lives with a housemate, Tamara Taylor. She is also working on expanding her shop online.",
+  "lifestyle": "Carmen Ortiz goes to bed around 11pm, awakes up around 7am, eats dinner around 8pm.",
+  "living_area": "the Ville:Tamara Taylor and Carmen Ortiz's house:Carmen Ortiz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 242,
+  "importance_ele_n": 6,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "open Harvey Oak Supply Store at 8:00 am",
+    "work at Harvey Oak Supply Store from 8:00 am to 6:00 pm",
+    "have lunch at The Rose and Crown Pub at 12:00 pm",
+    "relax at The Rose and Crown Pub from 1:00 pm to 4:00 pm",
+    "work on expanding Harvey Oak Supply Store online from 4:00 pm to 6:00 pm",
+    "have dinner at 8:00 pm",
+    "relax from 9:00 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Carmen is getting dressed in her cozy pajamas and brushing her teeth.\"",
+      5
+    ],
+    [
+      "Carmen is making breakfast and pouring herself a cup of coffee.\"",
+      5
+    ],
+    [
+      "Carmen is checking her phone for any important messages or notifications from her customers or suppliers.\"",
+      5
+    ],
+    [
+      "Carmen is reviewing the day's schedule and making a to-do list for the day.\"",
+      5
+    ],
+    [
+      "Carmen is checking the inventory of the store and making a list of the supplies she needs to restock.\"",
+      5
+    ],
+    [
+      "Carmen is reviewing the sales report for the previous day and making notes on what products need to be restocked.\"",
+      5
+    ],
+    [
+      "Carmen is planning her outfit for the day, considering the store's theme and the customers she will be serving.\"",
+      5
+    ],
+    [
+      "Carmen is making a list of the tasks she needs to complete before opening the store, including restocking supplies and reviewing the day's schedule.\"",
+      5
+    ],
+    [
+      "Carmen is checking her email for any important messages or notifications from her suppliers or customers.\"",
+      5
+    ],
+    [
+      "Carmen is reviewing the lesson plans for the day and making any necessary adjustments.\"",
+      5
+    ],
+    [
+      "Carmen is reviewing the store's social media accounts and responding to any customer inquiries or comments.\"",
+      5
+    ],
+    [
+      "Carmen is making a to-do list for the day, including tasks such as restocking supplies, reviewing the day's schedule, and preparing for the day's sales.\"",
+      5
+    ],
+    [
+      "opens Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "assists customers at Harvey Oak Supply Store",
+      120
+    ],
+    [
+      "takes a break to relax at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "has lunch at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "works on expanding Harvey Oak Supply Store online",
+      60
+    ],
+    [
+      "takes a break to relax at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "assists customers at Harvey Oak Supply Store",
+      120
+    ],
+    [
+      "finishes work at Harvey Oak Supply Store and heads to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "has dinner at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "spends time with her housemate, Tamara Taylor",
+      120
+    ],
+    [
+      "begins to wind down and prepare for bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "falls asleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "wakes up and begins her morning routine",
+      60
+    ],
+    [
+      "opens Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "assists customers at Harvey Oak Supply Store",
+      120
+    ],
+    [
+      "takes a break to relax at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "has lunch at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "works on expanding Harvey Oak Supply Store online",
+      60
+    ],
+    [
+      "takes a break to relax at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "assists customers at Harvey Oak Supply Store",
+      120
+    ],
+    [
+      "finishes work at Harvey Oak Supply Store and heads to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "has dinner at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "spends time with her housemate, Tamara Taylor",
+      120
+    ],
+    [
+      "begins to wind down and prepare for bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "falls asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Tamara Taylor and Carmen Ortiz's house:Carmen Ortiz's room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 420,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Carmen Ortiz",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

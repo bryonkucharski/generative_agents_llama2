@@ -1,0 +1,351 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    107,
+    61
+  ],
+  "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
+  "name": "Wolfgang Schulz",
+  "first_name": "Wolfgang",
+  "last_name": "Schulz",
+  "age": 21,
+  "innate": "Hardworking, passionate, dedicated",
+  "learned": "Wolfgang Schulz is a student at Oak Hill College studying chemistry and a student athlete. He is very dedicated to both his academics and his sport.",
+  "currently": "Wolfgang Schulz is training for his next competition and studying for his exams. He is also looking for ways to make his studies more efficient.",
+  "lifestyle": "Wolfgang Schulz goes to bed around 9pm, awakes up around 5am, eats dinner around 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 236,
+  "importance_ele_n": 10,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "go for a run at the park from 6:00 am to 7:00 am",
+    "shower and get ready for the day at 7:30 am",
+    "have breakfast at 8:00 am",
+    "study chemistry from 9:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "study chemistry from 1:00 pm to 4:00 pm",
+    "exercise at his room from 5:00 pm to 6:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "study for exams from 8:00 pm to 10:00 pm",
+    "go to bed at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "Wolfgang Schulz is focusing on warming up his muscles and getting his heart rate up.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is focusing on stretching and loosening up his muscles to prevent injuries.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is paying attention to his breathing and pacing himself to maintain a consistent speed.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is focusing on his form and technique to improve his running efficiency.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is mentally preparing himself for the day's tasks and prioritizing his schedule.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is visualizing his upcoming competition and imagining himself winning.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is listening to music to get himself pumped up and energized for the day ahead.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is focusing on setting specific, measurable, achievable, relevant, and time-bound (SMART) goals for his day.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is researching and making a list of the most efficient and effective study techniques to use for his upcoming exams.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is brainstorming ideas for a new study technique to improve his exam performance.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is thinking about what he wants to eat for breakfast and making a mental note to buy the necessary ingredients on his way back home.\"",
+      5
+    ],
+    [
+      "Wolfgang Schulz is focusing on his breathing and pacing himself to maintain a consistent speed.\"",
+      5
+    ],
+    [
+      "Wolfgang is focusing on his breathing and form.\"",
+      5
+    ],
+    [
+      "Wolfgang is looking for new and interesting trails to explore.\"",
+      5
+    ],
+    [
+      "Wolfgang is searching for any new and exciting trail to explore.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about how he can make his study routine more efficient to balance his academics and training.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what he can make for dinner tonight to fuel his body for his upcoming training and exams.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what he can make for dinner tonight to fuel his body for his upcoming training and exams.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what he can make for breakfast tomorrow to give him energy for his training and studies.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what he can make for breakfast tomorrow to give him energy for his training and studies.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what new recipe he can try for dinner tonight to fuel his body for his upcoming training and exams.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what new recipe he can try for dinner tonight to fuel his body for his upcoming training and exams.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what new exercise routine he can incorporate into his daily schedule to improve his performance in his sport and studies.\"",
+      5
+    ],
+    [
+      "Wolfgang is thinking about what new time management techniques he can use to balance his training, studies, and daily routine.\"",
+      5
+    ],
+    [
+      "finishes his run and showers",
+      60
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "starts studying chemistry",
+      60
+    ],
+    [
+      "is studying chemistry",
+      60
+    ],
+    [
+      "takes a break from studying to exercise at his room",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "starts studying chemistry again",
+      60
+    ],
+    [
+      "is studying chemistry",
+      60
+    ],
+    [
+      "takes a break from studying to relax",
+      60
+    ],
+    [
+      "starts studying for exams",
+      60
+    ],
+    [
+      "is studying for exams",
+      60
+    ],
+    [
+      "finishes studying for the day and starts to relax",
+      60
+    ],
+    [
+      "has dinner",
+      60
+    ],
+    [
+      "spends time with family",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "is in bed and asleep",
+      60
+    ],
+    [
+      "is sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "wakes up and goes for a run at the park",
+      60
+    ],
+    [
+      "is running at the park",
+      60
+    ],
+    [
+      "finishes his run and showers",
+      60
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "starts studying chemistry",
+      60
+    ],
+    [
+      "is studying chemistry",
+      60
+    ],
+    [
+      "takes a break from studying to exercise at his room",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "starts studying chemistry again",
+      60
+    ],
+    [
+      "is studying chemistry",
+      60
+    ],
+    [
+      "takes a break from studying to relax",
+      60
+    ],
+    [
+      "starts studying for exams",
+      60
+    ],
+    [
+      "is studying for exams",
+      60
+    ],
+    [
+      "finishes studying for the day and starts to relax",
+      60
+    ],
+    [
+      "has dinner",
+      60
+    ],
+    [
+      "spends time with family",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "is in bed and asleep",
+      60
+    ],
+    [
+      "is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+  "act_start_time": "February 13, 2023, 05:00:00",
+  "act_duration": 5,
+  "act_description": "Wolfgang Schulz is focusing on warming up his muscles and getting his heart rate up.\"",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Wolfgang Schulz",
+    "focus",
+    "warm up"
+  ],
+  "act_obj_description": "lifting weight is being warmed up by Wolfgang Schulz's body heat",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "lifting weight",
+    "be",
+    "Wolfgang Schulz's body heat"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      107,
+      59
+    ],
+    [
+      107,
+      58
+    ],
+    [
+      108,
+      58
+    ],
+    [
+      109,
+      58
+    ],
+    [
+      110,
+      58
+    ]
+  ]
+}

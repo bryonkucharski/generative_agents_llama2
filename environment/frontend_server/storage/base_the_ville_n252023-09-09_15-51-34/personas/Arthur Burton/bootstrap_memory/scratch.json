@@ -1,0 +1,231 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    60,
+    14
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 237,
+  "importance_ele_n": 12,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "eat breakfast at 8:00 am",
+    "prepare for work at 9:00 am",
+    "open The Rose and Crown Pub at 5:00 pm",
+    "serve customers and work at the bar from 5:00 pm to 10:00 pm",
+    "close The Rose and Crown Pub at 10:00 pm",
+    "relax from 10:30 pm to 11:30 pm",
+    "go to bed at 12:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Arthur Burton is making breakfast.\"",
+      5
+    ],
+    [
+      "Arthur Burton is checking his phone for any important messages or notifications.\"",
+      5
+    ],
+    [
+      "Arthur Burton is reviewing the day's schedule for The Rose and Crown Pub, including any special requests or events.\"",
+      5
+    ],
+    [
+      "Arthur Burton is deciding what unique cocktails he will create for the evening's menu.\"",
+      5
+    ],
+    [
+      "Arthur Burton is planning his outfit for the day, choosing a crisp white shirt and a pair of dark jeans that will complement his friendly and outgoing personality.\"",
+      5
+    ],
+    [
+      "Arthur Burton is making a to-do list for the day, including tasks such as restocking the bar, preparing for the evening's menu, and practicing his mixology skills.\"",
+      5
+    ],
+    [
+      "Arthur Burton is making a list of the ingredients he needs to purchase for the evening's menu, including fresh berries, mint leaves, and a special type of bitters.\"",
+      5
+    ],
+    [
+      "Arthur Burton is checking the weather forecast for the day to ensure he dresses appropriately for the evening's expected crowd.\"",
+      5
+    ],
+    [
+      "Arthur Burton is creating a playlist for the evening's music at the pub, choosing a mix of upbeat and mellow tunes to keep the atmosphere lively and welcoming.\"",
+      5
+    ],
+    [
+      "Arthur Burton is planning his outfit for the day, choosing a crisp white shirt and a pair of dark jeans that will complement his friendly and outgoing personality.\"",
+      5
+    ],
+    [
+      "Arthur Burton is making a list of the ingredients he needs to purchase for the evening's menu, including fresh berries, mint leaves, and a special type of bitters.\"",
+      5
+    ],
+    [
+      "Arthur Burton is reviewing the day's schedule for The Rose and Crown Pub, including any special requests or events.\"",
+      5
+    ],
+    [
+      "prepares breakfast",
+      60
+    ],
+    [
+      "prepares for work",
+      60
+    ],
+    [
+      "opens The Rose and Crown Pub",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      240
+    ],
+    [
+      "creates a new cocktail special for the evening",
+      60
+    ],
+    [
+      "practices his mixology skills",
+      60
+    ],
+    [
+      "prepares for the evening rush at the bar",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      120
+    ],
+    [
+      "creates a new cocktail special for the evening",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      60
+    ],
+    [
+      "closes The Rose and Crown Pub",
+      60
+    ],
+    [
+      "relax and unwinds after a long day at the bar",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "wakes up and begins his morning routine",
+      60
+    ],
+    [
+      "prepares breakfast",
+      60
+    ],
+    [
+      "prepares for work",
+      60
+    ],
+    [
+      "opens The Rose and Crown Pub",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      240
+    ],
+    [
+      "creates a new cocktail special for the evening",
+      60
+    ],
+    [
+      "practices his mixology skills",
+      60
+    ],
+    [
+      "prepares for the evening rush at the bar",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      120
+    ],
+    [
+      "creates a new cocktail special for the evening",
+      60
+    ],
+    [
+      "serves customers and works at the bar",
+      60
+    ],
+    [
+      "closes The Rose and Crown Pub",
+      60
+    ],
+    [
+      "relax and unwinds after a long day at the bar",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Arthur Burton's apartment:bathroom:shower",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 420,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Arthur Burton",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "shower is turned off and not in use",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "shower",
+    "not",
+    "use"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

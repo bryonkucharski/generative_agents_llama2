@@ -1,0 +1,246 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    16,
+    18
+  ],
+  "daily_plan_req": "",
+  "name": "Latoya Williams",
+  "first_name": "Latoya",
+  "last_name": "Williams",
+  "age": 25,
+  "innate": "organized, logical, attentive",
+  "learned": "Latoya Williams is a digital photographer who has a keen eye for details. She is very organized and analytical when it comes to her art.",
+  "currently": "Latoya Williams is creating a series of photography inspired by her travels. She mostly works from the artists' co-living space. Latoya is also curious about who will be running for the local mayor election next month and that is a central topic in her conversations with others.",
+  "lifestyle": "Latoya Williams goes to bed around 10pm, awakes up around 6am, eats dinner around 17:30pm.",
+  "living_area": "the Ville:artist's co-living space:Latoya Williams's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 241,
+  "importance_ele_n": 7,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "eat breakfast at 7:00 am",
+    "spend the morning (8:00 am - 12:00 pm) working on photography inspired by her travels",
+    "have lunch at 12:00 pm",
+    "take a nap from 1:00 pm to 4:00 pm",
+    "spend the evening (7:00 pm - 8:00 pm) relaxing",
+    "go to bed at 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "Latoya Williams is reviewing her schedule for the day and making a to-do list.\"",
+      5
+    ],
+    [
+      "Latoya Williams is reviewing her photography equipment and deciding what she needs to take with her for the day's shoot.\"",
+      5
+    ],
+    [
+      "Latoya Williams is checking her email and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Latoya Williams is reviewing the local news and social media to see if there are any updates on the upcoming mayoral election.\"",
+      5
+    ],
+    [
+      "Latoya Williams is deciding what outfit to wear for the day's photography shoot.\"",
+      5
+    ],
+    [
+      "Latoya Williams is making breakfast and planning out her day's schedule.\"",
+      5
+    ],
+    [
+      "Latoya Williams is reviewing her photography inspiration board on Pinterest to get ideas for her upcoming shoot.\"",
+      5
+    ],
+    [
+      "Latoya Williams is checking the weather forecast for the day's shoot to ensure she packs appropriate clothing and equipment.\"",
+      5
+    ],
+    [
+      "Latoya Williams is planning out her day's schedule and making a to-do list, including setting aside time for her photography shoot, responding to urgent emails, and reviewing the local news and social media for updates on the upcoming mayoral election.\"",
+      5
+    ],
+    [
+      "Latoya Williams is reviewing her photography inspiration board on Pinterest to get ideas for her upcoming shoot.\"",
+      5
+    ],
+    [
+      "Latoya Williams is deciding what specific theme or subject she wants to focus on for her photography shoot that day.\"",
+      5
+    ],
+    [
+      "Latoya Williams is gathering and preparing all the necessary equipment and materials she will need for the day's photography shoot, such as her camera, lenses, tripod, and any props or backdrops she may need.\"",
+      5
+    ],
+    [
+      "works on her photography inspired by her travels",
+      60
+    ],
+    [
+      "takes a break from her photography to eat breakfast",
+      60
+    ],
+    [
+      "spends the morning working on her photography",
+      60
+    ],
+    [
+      "takes a nap from 1:00 pm to 4:00 pm",
+      60
+    ],
+    [
+      "wakes up from her nap and spends the evening relaxing",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "attends a photography workshop from 1:00 pm to 3:00 pm",
+      180
+    ],
+    [
+      "finishes her photography workshop and spends the evening relaxing",
+      60
+    ],
+    [
+      "starts to prepare dinner",
+      60
+    ],
+    [
+      "eats dinner",
+      60
+    ],
+    [
+      "spends the evening relaxing",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ],
+    [
+      "is in her bedroom, getting ready for bed",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "wakes up and begins her morning routine",
+      60
+    ],
+    [
+      "works on her photography inspired by her travels",
+      60
+    ],
+    [
+      "takes a break from her photography to eat breakfast",
+      60
+    ],
+    [
+      "spends the morning working on her photography",
+      60
+    ],
+    [
+      "takes a nap from 1:00 pm to 4:00 pm",
+      60
+    ],
+    [
+      "wakes up from her nap and spends the evening relaxing",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "attends a photography workshop from 1:00 pm to 3:00 pm",
+      180
+    ],
+    [
+      "finishes her photography workshop and spends the evening relaxing",
+      60
+    ],
+    [
+      "starts to prepare dinner",
+      60
+    ],
+    [
+      "eats dinner",
+      60
+    ],
+    [
+      "spends the evening relaxing",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ],
+    [
+      "is in her bedroom, getting ready for bed",
+      120
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Latoya Williams's room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 360,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Latoya Williams",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,694 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:00",
+  "curr_tile": [
+    40,
+    68
+  ],
+  "daily_plan_req": "",
+  "name": "Jennifer Moore",
+  "first_name": "Jennifer",
+  "last_name": "Moore",
+  "age": 68,
+  "innate": "wise, experienced, warm",
+  "learned": "Jennifer Moore is a watercolor painter who has been painting for over fifty years. She is wise and experienced, and her work is full of warmth.",
+  "currently": "Jennifer Moore lives with her husband of 40 years, Sam Moore, and is preparing for an exhibition of her work. She is also mentoring younger artists to help them find their own creative voice.",
+  "lifestyle": "Jennifer Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 213,
+  "importance_ele_n": 19,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "eat breakfast at 6:00 am",
+    "paint from 7:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "take a nap from 1:00 pm to 4:00 pm",
+    "mentor young artists from 5:00 pm to 7:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "dinner at 5:00 pm",
+    "watch TV from 8:00 pm to 9:00 pm",
+    "go to bed at 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "Jennifer Moore is setting up her easel and materials.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is selecting the colors and brushes she will use for the day's painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing her previous paintings to get inspiration for the current one.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is deciding on the composition of the painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is mixing the colors and creating a color palette for the day's painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the overall mood and tone of the painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the overall mood and tone of the painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the overall mood and tone of the painting, considering the colors, brushstrokes, and composition to create a cohesive and engaging piece.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the overall mood and tone of the painting, considering the colors, brushstrokes, and composition to create a cohesive and engaging piece.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the overall mood and tone of the painting, considering the colors, brushstrokes, and composition to create a cohesive and engaging piece, and decides to focus on capturing the warmth and light of the season.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is deciding on the subject matter for the day's painting.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing her schedule for the day and decides to prioritize the upcoming exhibition and mentoring sessions.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is selecting the colors and materials she will use for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is mixing the colors and experimenting with different techniques to achieve the desired effect for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the layout of her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing the invitations and preparing the guest list for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is brainstorming ideas for the title and artist statement for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the marketing strategy for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the marketing strategy for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the logistics of transporting and displaying her artwork for the upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the logistics of transporting and displaying her artwork for the upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the logistics of transporting and displaying her artwork for the upcoming exhibition, including arranging for delivery and installation of the pieces, and coordinating with the gallery staff to ensure a smooth setup.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is creating a list of materials and supplies needed for the upcoming exhibition, including canvas, paints, brushes, and framing materials.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the seating and layout of the gallery for the upcoming exhibition to ensure maximum visibility and comfort for the attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is brainstorming ideas for the title and artist statement for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing the invitations and preparing the guest list for her upcoming exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the marketing strategy for her upcoming exhibition, including creating social media posts, sending out invitations, and reaching out to local art critics and influencers to generate buzz and attract attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the lighting and display of her artwork for the upcoming exhibition to ensure the pieces are presented in the best possible way and create the desired ambiance for the attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the logistics of transporting and displaying her artwork for the upcoming exhibition, including arranging for delivery and installation of the pieces, and coordinating with the gallery staff to ensure a smooth setup.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the opening night reception for her upcoming exhibition, including selecting the catering, decorations, and entertainment to create a memorable and enjoyable experience for the attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is brainstorming ideas for the title and artist statement for her upcoming exhibition, considering the themes and emotions she wants to convey, and how to best communicate her artistic vision to the audience.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the seating and layout of the gallery for the upcoming exhibition to ensure maximum visibility and comfort for the attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing the inventory of her art supplies and making a list of what she needs to purchase or restock before the exhibition.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the lighting and display of her artwork for the upcoming exhibition to ensure the pieces are presented in the best possible way and create the desired ambiance for the attendees.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is planning the transportation and logistics for her artwork to ensure that it arrives at the gallery safely and on time.\"",
+      5
+    ],
+    [
+      "Jennifer Moore is reviewing the list of materials and supplies needed for the upcoming exhibition, and making sure that everything is ready to be transported and displayed.\"",
+      5
+    ],
+    [
+      "takes a break from painting to mentor young artists",
+      60
+    ],
+    [
+      "mentors young artists",
+      60
+    ],
+    [
+      "continues painting",
+      60
+    ],
+    [
+      "paints",
+      60
+    ],
+    [
+      "takes a break from painting to have lunch",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "takes a nap",
+      60
+    ],
+    [
+      "wakes up from her nap and continues painting",
+      60
+    ],
+    [
+      "paints",
+      240
+    ],
+    [
+      "takes a break from painting to relax",
+      60
+    ],
+    [
+      "relays",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "brushes her teeth and prepares for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "wakes up and begins to paint",
+      60
+    ],
+    [
+      "paints",
+      120
+    ],
+    [
+      "takes a break from painting to mentor young artists",
+      60
+    ],
+    [
+      "mentors young artists",
+      60
+    ],
+    [
+      "continues painting",
+      60
+    ],
+    [
+      "paints",
+      60
+    ],
+    [
+      "takes a break from painting to have lunch",
+      60
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "takes a nap",
+      60
+    ],
+    [
+      "wakes up from her nap and continues painting",
+      60
+    ],
+    [
+      "paints",
+      240
+    ],
+    [
+      "takes a break from painting to relax",
+      60
+    ],
+    [
+      "relays",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "brushes her teeth and prepares for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+  "act_start_time": "February 13, 2023, 05:00:00",
+  "act_duration": 5,
+  "act_description": "Jennifer Moore is setting up her easel and materials.\"",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Jennifer Moore",
+    "set up",
+    "easel"
+  ],
+  "act_obj_description": "behind the pharmacy counter is being set up for art supplies",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "behind the pharmacy counter",
+    "set up",
+    "art supplies"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      39,
+      67
+    ],
+    [
+      39,
+      66
+    ],
+    [
+      39,
+      65
+    ],
+    [
+      39,
+      64
+    ],
+    [
+      39,
+      63
+    ],
+    [
+      39,
+      62
+    ],
+    [
+      39,
+      61
+    ],
+    [
+      39,
+      60
+    ],
+    [
+      39,
+      59
+    ],
+    [
+      39,
+      58
+    ],
+    [
+      39,
+      57
+    ],
+    [
+      39,
+      56
+    ],
+    [
+      39,
+      55
+    ],
+    [
+      39,
+      54
+    ],
+    [
+      39,
+      53
+    ],
+    [
+      40,
+      53
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      46,
+      53
+    ],
+    [
+      47,
+      53
+    ],
+    [
+      48,
+      53
+    ],
+    [
+      49,
+      53
+    ],
+    [
+      50,
+      53
+    ],
+    [
+      50,
+      54
+    ],
+    [
+      51,
+      54
+    ],
+    [
+      52,
+      54
+    ],
+    [
+      52,
+      55
+    ],
+    [
+      53,
+      55
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      56,
+      56
+    ],
+    [
+      57,
+      56
+    ],
+    [
+      58,
+      56
+    ],
+    [
+      59,
+      56
+    ],
+    [
+      60,
+      56
+    ],
+    [
+      61,
+      56
+    ],
+    [
+      62,
+      56
+    ],
+    [
+      63,
+      56
+    ],
+    [
+      64,
+      56
+    ],
+    [
+      65,
+      56
+    ],
+    [
+      66,
+      56
+    ],
+    [
+      67,
+      56
+    ],
+    [
+      68,
+      56
+    ],
+    [
+      69,
+      56
+    ],
+    [
+      70,
+      56
+    ],
+    [
+      71,
+      56
+    ],
+    [
+      72,
+      56
+    ],
+    [
+      73,
+      56
+    ],
+    [
+      74,
+      56
+    ],
+    [
+      75,
+      56
+    ],
+    [
+      76,
+      56
+    ],
+    [
+      77,
+      56
+    ],
+    [
+      78,
+      56
+    ],
+    [
+      79,
+      56
+    ],
+    [
+      80,
+      56
+    ],
+    [
+      81,
+      56
+    ],
+    [
+      82,
+      56
+    ],
+    [
+      83,
+      56
+    ],
+    [
+      84,
+      56
+    ],
+    [
+      85,
+      56
+    ],
+    [
+      86,
+      56
+    ],
+    [
+      87,
+      56
+    ],
+    [
+      88,
+      56
+    ],
+    [
+      88,
+      55
+    ],
+    [
+      88,
+      54
+    ],
+    [
+      88,
+      53
+    ],
+    [
+      87,
+      53
+    ],
+    [
+      86,
+      53
+    ],
+    [
+      85,
+      53
+    ],
+    [
+      84,
+      53
+    ],
+    [
+      83,
+      53
+    ],
+    [
+      82,
+      53
+    ],
+    [
+      81,
+      53
+    ],
+    [
+      80,
+      53
+    ],
+    [
+      79,
+      53
+    ],
+    [
+      78,
+      53
+    ],
+    [
+      78,
+      52
+    ],
+    [
+      78,
+      51
+    ],
+    [
+      78,
+      50
+    ],
+    [
+      77,
+      50
+    ],
+    [
+      76,
+      50
+    ],
+    [
+      75,
+      50
+    ],
+    [
+      75,
+      51
+    ]
+  ]
+}

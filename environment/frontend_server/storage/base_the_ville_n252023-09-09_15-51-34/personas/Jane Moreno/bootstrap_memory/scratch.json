@@ -1,0 +1,272 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    72,
+    74
+  ],
+  "daily_plan_req": "",
+  "name": "Jane Moreno",
+  "first_name": "Jane",
+  "last_name": "Moreno",
+  "age": 46,
+  "innate": "friendly, helpful, organized",
+  "learned": "Jane Moreno is a housewife who loves to take care of her family. She is always looking for new ways to make life easier and more enjoyable for everyone.",
+  "currently": "Jane Moreno is living with her husband, Tom Moreno, who is a shop keeper at The Willow Market and Pharmacy.",
+  "lifestyle": "Jane Moreno goes to bed around 10pm, awakes up around 6am, eats dinner around 6pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 237,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "eat breakfast at 7:00 am",
+    "spend time with family from 8:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "take a nap from 1:00 pm to 4:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "have dinner at 6:00 pm",
+    "watch TV from 8:00 pm to 10:00 pm",
+    "go to bed at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "Jane Moreno is making her bed and getting dressed.\"",
+      5
+    ],
+    [
+      "Jane Moreno is making breakfast for her family.\"",
+      5
+    ],
+    [
+      "Jane Moreno is checking her schedule for the day and making a to-do list.\"",
+      5
+    ],
+    [
+      "Jane Moreno is planning her meals for the week and making a grocery list.\"",
+      5
+    ],
+    [
+      "Jane Moreno is tidying up the living room and kitchen.\"",
+      5
+    ],
+    [
+      "Jane Moreno is checking her email and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Jane Moreno is planning her lessons for the week and making any necessary adjustments to her lesson plans.\"",
+      5
+    ],
+    [
+      "Jane Moreno is reviewing her family's schedule for the day and making sure everyone is on track with their tasks and responsibilities.\"",
+      5
+    ],
+    [
+      "Jane Moreno is making a cup of coffee and enjoying it while planning her day.\"",
+      5
+    ],
+    [
+      "Jane Moreno is checking her fridge and pantry to see what ingredients she has on hand and planning her meals for the week based on what she has available.\"",
+      5
+    ],
+    [
+      "Jane Moreno is reviewing her budget and making sure she is staying within her means for the week.\"",
+      5
+    ],
+    [
+      "Jane Moreno is reviewing her lesson plans for the week and making any necessary adjustments to ensure they align with the kindergarten curriculum standards.\"",
+      5
+    ],
+    [
+      "has breakfast with her family",
+      60
+    ],
+    [
+      "spends time with her family",
+      60
+    ],
+    [
+      "helps her children with their homework",
+      60
+    ],
+    [
+      "takes a nap with her children",
+      60
+    ],
+    [
+      "wakes up from her nap and spends time with her family",
+      60
+    ],
+    [
+      "has lunch with her family",
+      60
+    ],
+    [
+      "starts to prepare dinner for her family",
+      60
+    ],
+    [
+      "takes a break from cooking to spend time with her family",
+      60
+    ],
+    [
+      "finishes preparing dinner and starts to relax",
+      60
+    ],
+    [
+      "starts to get her children ready for bed",
+      60
+    ],
+    [
+      "puts her children to bed",
+      60
+    ],
+    [
+      "starts to relax and unwind after a long day",
+      60
+    ],
+    [
+      "starts to prepare dinner for her family",
+      60
+    ],
+    [
+      "has dinner with her family",
+      60
+    ],
+    [
+      "starts to wind down and get ready for bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "is in bed and asleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "wakes up and begins her morning routine",
+      60
+    ],
+    [
+      "has breakfast with her family",
+      60
+    ],
+    [
+      "spends time with her family",
+      60
+    ],
+    [
+      "helps her children with their homework",
+      60
+    ],
+    [
+      "takes a nap with her children",
+      60
+    ],
+    [
+      "wakes up from her nap and spends time with her family",
+      60
+    ],
+    [
+      "has lunch with her family",
+      60
+    ],
+    [
+      "starts to prepare dinner for her family",
+      60
+    ],
+    [
+      "takes a break from cooking to spend time with her family",
+      60
+    ],
+    [
+      "finishes preparing dinner and starts to relax",
+      60
+    ],
+    [
+      "starts to get her children ready for bed",
+      60
+    ],
+    [
+      "puts her children to bed",
+      60
+    ],
+    [
+      "starts to relax and unwind after a long day",
+      60
+    ],
+    [
+      "starts to prepare dinner for her family",
+      60
+    ],
+    [
+      "has dinner with her family",
+      60
+    ],
+    [
+      "starts to wind down and get ready for bed",
+      60
+    ],
+    [
+      "starts to get ready for bed",
+      60
+    ],
+    [
+      "is in bed and asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 360,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Jane Moreno",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on by Jane Moreno",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "Jane Moreno"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,310 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    38,
+    68
+  ],
+  "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
+  "name": "Sam Moore",
+  "first_name": "Sam",
+  "last_name": "Moore",
+  "age": 65,
+  "innate": "wise, resourceful, humorous",
+  "learned": "Sam Moore is a retired navy officer who loves to share stories from his time in the military. He is always full of interesting stories and advice.",
+  "currently": "Sam Moore lives with his wife of 40 years, Jennifer Moore, and spends his free time tending the park and is an avid reader. Sam is planning on running for local mayor in the upcoming election and he is telling is neighbors about it",
+  "lifestyle": "Sam Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 214,
+  "importance_ele_n": 18,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "take a walk around Johnson Park from 6:00 am to 7:00 am",
+    "eat breakfast at 7:00 am",
+    "read a book from 8:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "take a nap from 1:00 pm to 4:00 pm",
+    "sit at Hobbs cafe reading from 5:00 pm to 6:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "watch TV from 8:00 pm to 9:00 pm",
+    "go to bed at 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "Sam Moore is stretching and doing some light exercises to start his day off right.\"",
+      5
+    ],
+    [
+      "Sam Moore is making a cup of coffee and enjoying it on his porch, enjoying the fresh morning air and the view of the park.\"",
+      5
+    ],
+    [
+      "Sam Moore is checking the local news and weather forecast to plan his day.\"",
+      5
+    ],
+    [
+      "Sam Moore is reviewing his daily schedule and making a to-do list for the day.\"",
+      5
+    ],
+    [
+      "Sam Moore is deciding what to wear for the day, considering the weather and his plans for the day.\"",
+      5
+    ],
+    [
+      "Sam Moore is deciding what to wear for the day, considering the weather and his plans for the day.\"",
+      5
+    ],
+    [
+      "Sam Moore is planning his outfit for the day, considering the weather and his plans for the day.\"",
+      5
+    ],
+    [
+      "Sam Moore is checking his email and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Sam Moore is reviewing the local news and weather forecast to plan his day, specifically checking for any updates on the upcoming mayoral election.\"",
+      5
+    ],
+    [
+      "Sam Moore is making a to-do list for the day, prioritizing his tasks and scheduling his activities based on his daily routine and the weather forecast.\"",
+      5
+    ],
+    [
+      "Sam Moore is deciding what to wear for the day, considering the weather and his plans for the day, and he chooses a comfortable outfit for his walk in the park and his meeting with his campaign team.\"",
+      5
+    ],
+    [
+      "Sam Moore is reviewing his campaign platform and making a list of the materials he needs to prepare for his meeting with his campaign team.\"",
+      5
+    ],
+    [
+      "Sam Moore is observing the park's wildlife and noticing any changes since the last time he was there.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new plant life or flowers blooming.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements.\"",
+      5
+    ],
+    [
+      "Sam Moore is observing the park's wildlife and noticing any changes since the last time he was there.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is looking for any signs of new park benches or other park improvements, and making a mental note of the locations of any changes he notices, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "Sam Moore is observing the park's wildlife and noticing any changes since the last time he was there, and making a mental note of any new or improved park benches, so he can include them in his campaign platform for the local mayor election.\"",
+      5
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "reads a book",
+      60
+    ],
+    [
+      "is at Hobbs cafe reading",
+      180
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "takes a nap",
+      60
+    ],
+    [
+      "wakes up from his nap",
+      60
+    ],
+    [
+      "is at Hobbs cafe reading",
+      180
+    ],
+    [
+      "finishes his book and puts it back on the shelf",
+      60
+    ],
+    [
+      "begins to prepare dinner",
+      60
+    ],
+    [
+      "eats dinner with his wife",
+      60
+    ],
+    [
+      "spends time with his wife",
+      60
+    ],
+    [
+      "begins to wind down for the night",
+      60
+    ],
+    [
+      "falls asleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "wakes up and begins his morning routine",
+      60
+    ],
+    [
+      "takes a walk around Johnson Park",
+      60
+    ],
+    [
+      "has breakfast",
+      60
+    ],
+    [
+      "reads a book",
+      60
+    ],
+    [
+      "is at Hobbs cafe reading",
+      180
+    ],
+    [
+      "has lunch",
+      60
+    ],
+    [
+      "takes a nap",
+      60
+    ],
+    [
+      "wakes up from his nap",
+      60
+    ],
+    [
+      "is at Hobbs cafe reading",
+      180
+    ],
+    [
+      "finishes his book and puts it back on the shelf",
+      60
+    ],
+    [
+      "begins to prepare dinner",
+      60
+    ],
+    [
+      "eats dinner with his wife",
+      60
+    ],
+    [
+      "spends time with his wife",
+      60
+    ],
+    [
+      "begins to wind down for the night",
+      60
+    ],
+    [
+      "falls asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Moore family's house:bathroom:shower",
+  "act_start_time": "February 13, 2023, 05:00:00",
+  "act_duration": 5,
+  "act_description": "Sam Moore is stretching and doing some light exercises to start his day off right.\"",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Sam Moore",
+    "stretch",
+    "exercise"
+  ],
+  "act_obj_description": "shower is being used by Sam Moore to stretch and exercise",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "shower",
+    "used by",
+    "Sam Moore"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      38,
+      69
+    ],
+    [
+      38,
+      70
+    ],
+    [
+      37,
+      70
+    ]
+  ]
+}

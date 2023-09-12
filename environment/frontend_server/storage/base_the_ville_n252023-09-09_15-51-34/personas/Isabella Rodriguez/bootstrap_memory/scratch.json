@@ -1,0 +1,198 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    73,
+    14
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 240,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "stand at the counter and serve customers until 8:00 pm",
+    "have dinner at 7:00 pm",
+    "relax from 8:00 pm to 9:00 pm",
+    "get ready for the Valentine's Day party at 9:00 pm",
+    "go to bed at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "Isabella is checking her email and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the menu for the Valentine's Day party at Hobbs Cafe to ensure that everything is in order and ready to go.\"",
+      5
+    ],
+    [
+      "Isabella is making a shopping list for the ingredients she needs to buy for the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is checking the cafe's social media accounts to see if there are any updates or messages from customers regarding the Valentine's Day party.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party decoration and table setting to ensure everything is perfect for the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party playlist for the Valentine's Day party at Hobbs Cafe to ensure that the music will be appropriate and enjoyable for the guests.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party invitations and ensuring that all the guests have received them and are confirmed to attend the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party supplies and decorations to ensure that everything is in order and ready to go for the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party games and activities to ensure that they are fun and engaging for the guests at the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party favors and gifts to ensure that they are appropriate and enjoyable for the guests at the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party menu and ensuring that all the dishes are prepared and ready to be served at the Valentine's Day party at Hobbs Cafe.\"",
+      5
+    ],
+    [
+      "Isabella is reviewing the party playlist for the Valentine's Day party at Hobbs Cafe to ensure that the music will be appropriate and enjoyable for the guests.\"",
+      5
+    ],
+    [
+      "prepares breakfast for the cafe",
+      60
+    ],
+    [
+      "opens Hobbs Cafe and begins serving customers",
+      60
+    ],
+    [
+      "serves customers at Hobbs Cafe",
+      120
+    ],
+    [
+      "takes a short break to relax and enjoy a cup of coffee",
+      60
+    ],
+    [
+      "hosts a Valentine's Day party at Hobbs Cafe from 5pm to 7pm",
+      540
+    ],
+    [
+      "starts to wind down and prepare for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ],
+    [
+      "is asleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "wakes up and begins to get ready for the day",
+      60
+    ],
+    [
+      "prepares breakfast for the cafe",
+      60
+    ],
+    [
+      "opens Hobbs Cafe and begins serving customers",
+      60
+    ],
+    [
+      "serves customers at Hobbs Cafe",
+      120
+    ],
+    [
+      "takes a short break to relax and enjoy a cup of coffee",
+      60
+    ],
+    [
+      "hosts a Valentine's Day party at Hobbs Cafe from 5pm to 7pm",
+      540
+    ],
+    [
+      "starts to wind down and prepare for bed",
+      60
+    ],
+    [
+      "goes to bed",
+      60
+    ],
+    [
+      "is asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 360,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Isabella Rodriguez",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

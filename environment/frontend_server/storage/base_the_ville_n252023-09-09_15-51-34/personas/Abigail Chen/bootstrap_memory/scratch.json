@@ -1,0 +1,257 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    36,
+    18
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 242,
+  "importance_ele_n": 6,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "eat breakfast at 9:00 am",
+    "work on animation project for client from 10:00 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "work on interactive art experiment from 1:00 pm to 4:00 pm",
+    "relax from 4:00 pm to 7:00 pm",
+    "have dinner at 6:00 pm",
+    "watch TV from 7:00 pm to 8:00 pm",
+    "relax from 8:00 pm to 9:00 pm",
+    "go to bed at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "Abigail Chen is checking her emails and responding to any urgent messages.\"",
+      5
+    ],
+    [
+      "Abigail Chen is reviewing her schedule for the day and making a to-do list of tasks she needs to complete.\"",
+      5
+    ],
+    [
+      "Abigail Chen is deciding what to wear for the day, considering both comfort and style.\"",
+      5
+    ],
+    [
+      "Abigail Chen is making breakfast and planning her meals for the day.\"",
+      5
+    ],
+    [
+      "Abigail Chen is reviewing her animation project for the client and making a list of the materials she needs to gather for the day.\"",
+      5
+    ],
+    [
+      "Abigail Chen is checking her social media accounts to see what's new and trending in the art and technology communities.\"",
+      5
+    ],
+    [
+      "Abigail Chen is deciding on the outfit she will wear for the day, considering both comfort and style.\"",
+      5
+    ],
+    [
+      "Abigail Chen is planning her day's schedule and prioritizing her tasks based on their importance and deadlines.\"",
+      5
+    ],
+    [
+      "Abigail Chen is researching new tools and techniques for interactive art to incorporate into her animation project.\"",
+      5
+    ],
+    [
+      "Abigail Chen is brainstorming ideas for her animation project and making a list of the materials she needs to gather for the day.\"",
+      5
+    ],
+    [
+      "Abigail Chen is reviewing her animation project for the client and making a list of the materials she needs to gather for the day, including any specific software or hardware requirements.\"",
+      5
+    ],
+    [
+      "Abigail Chen is checking her schedule for the day and making a to-do list of tasks she needs to complete, prioritizing them based on their importance and deadlines.\"",
+      5
+    ],
+    [
+      "starts working on animation project for client",
+      60
+    ],
+    [
+      "works on animation project for client",
+      60
+    ],
+    [
+      "takes a break from work to eat lunch",
+      60
+    ],
+    [
+      "eats lunch",
+      60
+    ],
+    [
+      "starts working on interactive art experiment",
+      60
+    ],
+    [
+      "works on interactive art experiment",
+      60
+    ],
+    [
+      "takes a break from work to relax",
+      60
+    ],
+    [
+      "starts working on animation project for client",
+      60
+    ],
+    [
+      "takes a break from work to have dinner",
+      60
+    ],
+    [
+      "has dinner",
+      60
+    ],
+    [
+      "starts relaxing",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "is in the middle of getting ready for bed",
+      60
+    ],
+    [
+      "finishes getting ready for bed and settles in for the night",
+      60
+    ],
+    [
+      "starts to wind down and prepare for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "wakes up and begins to get ready for the day",
+      60
+    ],
+    [
+      "starts working on animation project for client",
+      60
+    ],
+    [
+      "works on animation project for client",
+      60
+    ],
+    [
+      "takes a break from work to eat lunch",
+      60
+    ],
+    [
+      "eats lunch",
+      60
+    ],
+    [
+      "starts working on interactive art experiment",
+      60
+    ],
+    [
+      "works on interactive art experiment",
+      60
+    ],
+    [
+      "takes a break from work to relax",
+      60
+    ],
+    [
+      "starts working on animation project for client",
+      60
+    ],
+    [
+      "takes a break from work to have dinner",
+      60
+    ],
+    [
+      "has dinner",
+      60
+    ],
+    [
+      "starts relaxing",
+      60
+    ],
+    [
+      "begins to get ready for bed",
+      60
+    ],
+    [
+      "is in the middle of getting ready for bed",
+      60
+    ],
+    [
+      "finishes getting ready for bed and settles in for the night",
+      60
+    ],
+    [
+      "starts to wind down and prepare for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Abigail Chen's room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 480,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Abigail Chen",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

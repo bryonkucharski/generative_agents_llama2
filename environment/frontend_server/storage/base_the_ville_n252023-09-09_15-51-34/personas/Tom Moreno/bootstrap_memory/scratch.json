@@ -1,0 +1,245 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 05:00:10",
+  "curr_tile": [
+    73,
+    74
+  ],
+  "daily_plan_req": "Tom Moreno opens The Willow Market and Pharmacy at 8am, stands behind the grocery counter, and goes home afterwards to eat dinner with his wife.",
+  "name": "Tom Moreno",
+  "first_name": "Tom",
+  "last_name": "Moreno",
+  "age": 52,
+  "innate": "rude, aggressive, energetic",
+  "learned": "Tom Moreno is a grocery shop keeper at The Willow Market and Pharmacy who loves interacting with customers. He is always willing to help out and make sure everyone is taken care of.",
+  "currently": "Tom Moreno is living with his wife, Jane Moreno, and is managing the day to day operations at the store and helping out customers with their orders. Tom is also really interested in the local mayor election that is coming up next month. You don't like Sam Moore.",
+  "lifestyle": "Tom Moreno goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 237,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "open The Willow Market and Pharmacy at 8:00 am",
+    "work at the grocery store from 8:00 am to 5:00 pm",
+    "eat dinner at 5:00 pm",
+    "relax from 7:00 pm to 8:00 pm",
+    "watch TV from 8:00 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Tom Moreno is getting dressed in his work attire.\"",
+      5
+    ],
+    [
+      "Tom Moreno is making breakfast for himself and his wife.\"",
+      5
+    ],
+    [
+      "Tom Moreno is checking the store's inventory and making a mental note of what needs to be restocked.\"",
+      5
+    ],
+    [
+      "Tom Moreno is reviewing the local news and checking the weather forecast for the day to see if there are any potential issues that may affect the store's operations.\"",
+      5
+    ],
+    [
+      "Tom Moreno is checking his phone for any important messages or notifications from customers or suppliers.\"",
+      5
+    ],
+    [
+      "Tom Moreno is making a to-do list for the day, including tasks such as restocking inventory, helping customers, and reviewing the local news.\"",
+      5
+    ],
+    [
+      "Tom Moreno is checking the store's security systems and making sure they are functioning properly.\"",
+      5
+    ],
+    [
+      "Tom Moreno is reviewing the kindergarten curriculum standards to see if there are any new developments or changes that he needs to be aware of for the lesson plan he is working on.\"",
+      5
+    ],
+    [
+      "Tom Moreno is reviewing the kindergarten curriculum standards to see if there are any new developments or changes that he needs to be aware of for the lesson plan he is working on.\"",
+      5
+    ],
+    [
+      "Tom Moreno is making a mental note of any new developments or changes in the kindergarten curriculum standards that he needs to be aware of for the lesson plan he is working on.\"",
+      5
+    ],
+    [
+      "Tom Moreno is reviewing the kindergarten curriculum standards to see if there are any new developments or changes that he needs to be aware of for the lesson plan he is working on.\"",
+      5
+    ],
+    [
+      "Tom Moreno is reviewing the kindergarten curriculum standards to see if there are any new developments or changes that he needs to be aware of for the lesson plan he is working on.\"",
+      5
+    ],
+    [
+      "opens The Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assists customers with their grocery shopping",
+      120
+    ],
+    [
+      "takes a short break to eat his lunch",
+      60
+    ],
+    [
+      "continues assisting customers with their grocery shopping",
+      60
+    ],
+    [
+      "assists customers with their grocery shopping",
+      120
+    ],
+    [
+      "has a disagreement with a customer",
+      60
+    ],
+    [
+      "takes a short break to calm down and collect his thoughts",
+      60
+    ],
+    [
+      "continues assisting customers with their grocery shopping",
+      60
+    ],
+    [
+      "finishes work at the grocery store and heads home to eat dinner with his wife",
+      60
+    ],
+    [
+      "eats dinner with his wife",
+      60
+    ],
+    [
+      "watches TV with his wife",
+      60
+    ],
+    [
+      "falls asleep on the couch while watching TV",
+      60
+    ],
+    [
+      "wakes up and decides to take a walk to clear his head",
+      60
+    ],
+    [
+      "takes a walk to clear his head",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "wakes up and begins his morning routine",
+      60
+    ],
+    [
+      "opens The Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assists customers with their grocery shopping",
+      120
+    ],
+    [
+      "takes a short break to eat his lunch",
+      60
+    ],
+    [
+      "continues assisting customers with their grocery shopping",
+      60
+    ],
+    [
+      "assists customers with their grocery shopping",
+      120
+    ],
+    [
+      "has a disagreement with a customer",
+      60
+    ],
+    [
+      "takes a short break to calm down and collect his thoughts",
+      60
+    ],
+    [
+      "continues assisting customers with their grocery shopping",
+      60
+    ],
+    [
+      "finishes work at the grocery store and heads home to eat dinner with his wife",
+      60
+    ],
+    [
+      "eats dinner with his wife",
+      60
+    ],
+    [
+      "watches TV with his wife",
+      60
+    ],
+    [
+      "falls asleep on the couch while watching TV",
+      60
+    ],
+    [
+      "wakes up and decides to take a walk to clear his head",
+      60
+    ],
+    [
+      "takes a walk to clear his head",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 420,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Tom Moreno",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "bed is being slept on",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "slept"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}
